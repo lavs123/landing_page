@@ -7,7 +7,7 @@ body{
 /*inicio da sessao header*/
 .header{
     background-color:#1F2937;
-    height: 500px;
+    height: 50VH;
     font-family: "Roboto", sans-serif;   
 }
 .nav{
@@ -28,7 +28,7 @@ body{
    list-style: none;
   } 
 
-li,a {
+li a {
    text-decoration: none;
    padding-left: 18px;
    color: #E5E7EB;
@@ -38,17 +38,17 @@ li,a {
 
  .hero{
    display: flex;
-   margin-top: 100px;
+   margin-top: 2%;
    justify-content: center;
    text-align: left;
   
  }
 .info_hero{
-   width: 410px;
+   width: 24%;
    margin-right: 30px;
 }
 
- .info_hero, h1{
+ .info_hero h1{
    font-size: 48px;
    color: #F9FAF8;
    margin-top: 0px;
@@ -62,7 +62,7 @@ li,a {
    font-size: 18px;
    color: #F9FAF8;
    margin-top: 0px;
-   margin-bottom: 5px;
+   margin-bottom: 9px;
    font-family: "Roboto", sans-serif;
    font-weight: 200;
  }
@@ -100,7 +100,7 @@ li,a {
  }
  .info_title{
   font-size: 36px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Robotdfo", sans-serif;
   font-weight: 900;
  }
  .element_box{
@@ -142,13 +142,15 @@ li,a {
    .testemonial_text{
     font-size: 36px;
     font-family: "Roboto",sans-serif;
-    text-align: center;
+    text-align: justify;
+    font-weight: 100;
     padding-top:70px;
     font-style: italic;
     color: #1F2937;
    }
    .author {
     display: flex;
+    color: #1F2937;
     justify-content: flex-end;
     font-family: "Roboto",sans-serif;
     padding-bottom: 70px;
@@ -189,7 +191,6 @@ li,a {
  }
 
  .btn_modal{
-  color: #F9FAF8;
   border: 2px solid #F9FAF8;
   background-color: #3882F6;
   border: 2px solid #F9FAF8;
@@ -200,7 +201,7 @@ li,a {
  }
  .btn_modal a {
   text-decoration: none;
- 
+  color: #F9FAF8;
  }
 /*Fim section modal*/
 /*Inicio section footer*/
@@ -210,8 +211,8 @@ li,a {
   background-color:#1F2937;
 }
 span{
-  padding-top:20px ;
-  padding-bottom: 20px;
+  padding-top:2% ;
+  padding-bottom: 2%;
   color: #F9FAF8;
   }
 
